@@ -7,7 +7,7 @@ create table message( message_id int not null auto_increment, user_dni varchar(2
  target_user varchar(255) not null, message_text varchar(255) not null, viewed BIT, PRIMARY KEY(message_id));
 
  insert into users ( user_name, user_lastname, user_dni)
- values('Ezequiel', 'Ferrauti', '33227034'),
+ values('Ezequiel', 'Ramirez', '20437037'),
        ('Marcos', 'Pereyra', '22408890'),
        ('Patricio', 'Velzaques', '33555666');
 
